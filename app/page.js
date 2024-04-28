@@ -1,4 +1,4 @@
-import LocationFinder from "@/component/LocationFinder";
+import LocationFinder from "@/components/LocationFinder";
 
 
 export default function Home() {
