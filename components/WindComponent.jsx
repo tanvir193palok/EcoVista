@@ -2,8 +2,8 @@ import { getWindData } from "@/lib/weather-info";
 import Card from "./Card";
 import Image from "next/image";
 
-const WindComponent = ({ lat, lon }) => {
-  const { speed, deg } = getWindData(lat, lon);
+const WindComponent = async ({ lat, lon }) => {
+  const { speed, deg } = await getWindData(lat, lon);
   return (
     <Card>
       <h6 class="feature-name">Wind</h6>
