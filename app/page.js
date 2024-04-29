@@ -1,8 +1,10 @@
 import LocationFinder from "@/components/LocationFinder";
-
+import { Suspense } from "react";
 
 export default function Home() {
   return (
-    <LocationFinder />
+    <Suspense>
+      <LocationFinder />
+    </Suspense>
   );
 }
