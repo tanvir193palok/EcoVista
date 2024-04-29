@@ -6,10 +6,10 @@ const WindComponent = async ({ lat, lon }) => {
   const { speed, deg } = await getWindData(lat, lon);
   return (
     <Card>
-      <h6 class="feature-name">Wind</h6>
-      <div class="feature-main">
+      <h6 className="feature-name">Wind</h6>
+      <div className="feature-main">
         <Image
-          class="max-w-20"
+          className="max-w-20"
           src="/assets/icons/icon_wind.png"
           alt="rain icon"
           width={80}

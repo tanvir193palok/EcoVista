@@ -22,12 +22,13 @@ export default function RootLayout({
         src="/assets/images/background.png"
         width={700}
         height={1200}
-        class="bg-img"
+        className="bg-img"
+        alt="background"
       />
-      <div class="overlay"></div>
-      <main class="!z-50 w-full">
-        <div class="container">
-          <div class="grid grid-cols-12 gap-y-8 py-16 lg:gap-8 2xl:gap-20 2xl:py-20">
+      <div className="overlay"></div>
+      <main className="!z-50 w-full">
+        <div className="container">
+          <div className="grid grid-cols-12 gap-y-8 py-16 lg:gap-8 2xl:gap-20 2xl:py-20">
             {children}
             {weather}
             {aqi}
