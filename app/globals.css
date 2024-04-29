@@ -10,7 +10,7 @@
 
 @layer components {
   .wrapper {
-    @apply relative grid min-h-screen max-w-full place-items-center overflow-y-auto bg-[#19243B];
+    @apply relative grid min-h-screen max-w-full place-items-center overflow-y-auto bg-[#19243B] px-10;
   }
   .bg-img {
     @apply absolute left-0 right-0 top-0 z-10 h-[70vh] w-full object-cover max-lg:fixed max-lg:h-screen;
@@ -22,7 +22,7 @@
     @apply relative h-full min-h-[290px] max-w-full rounded-2xl bg-[#293A4E] p-5 text-white;
   }
   .feature-name {
-    @apply text-sm font-medium text-[#7887A2] lg:text-base;
+    @apply text-sm font-medium lg:font-semibold text-[#7887A2] lg:text-base text-center;
   }
   .feature-main {
     @apply absolute left-1/2 top-1/2 flex -translate-x-1/2 -translate-y-1/2 flex-col items-center space-y-2;
