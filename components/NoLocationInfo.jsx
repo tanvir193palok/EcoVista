@@ -7,7 +7,7 @@ const NoLocationInfo = ({ location }) => {
       <p className="text-md py-3">
         Currently we do not have any information about
         <span className="text-xl font-semibold text-teal-400 px-3">
-          "{location}"
+          {location}
         </span>
       </p>
     </Card>
